@@ -1,5 +1,11 @@
 /*--------------------------------------------------------------
-    1. ANIMACION CU
+    1. PREOADER
+  --------------------------------------------------------------*/
+  $(window).on('load', function (event) {
+		$('#preloader').delay(500).fadeOut(500);
+	});
+/*--------------------------------------------------------------
+    2. ANIMACION CURSOR
   --------------------------------------------------------------*/
   jQuery(document).ready(function ($) {
     function Cursor(cursor, pointer) {
@@ -40,9 +46,37 @@
       $('#cursor').css('animation', 'cursorClick 700ms');
       setTimeout(()=>{$('#cursor').css('animation', '')},700);
     });
-    Cursor($('#cursor'), $('#pointer'));
-    $('#logo-ydevs').on('click', function(){
-      $(this).toggleClass('scroll');
-    });
+  });
 
+  /*--------------------------------------------------------------
+    3. NAVBAR
+  --------------------------------------------------------------*/
+
+  /*--------------------------------------------------------------
+    4. SWIPER SLIDERS
+  --------------------------------------------------------------*/
+  var swiper = new Swiper(".swiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 100,
+      modifier: 2,
+      slideShadows: true
+    },
+    keyboard: {
+      enabled: true
+    },
+    mousewheel: {
+      thresholdDelta: 70
+    },
+    spaceBetween: 60,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    }
   });
