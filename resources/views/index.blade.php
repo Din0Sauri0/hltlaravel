@@ -58,12 +58,82 @@
     <!-- ========== NAVBAR HEADER ========== -->
     <!-- ========== SOCIALES LATERAL HOME  ========== -->
 
+    <!-- ========== SLIDER NUEVAS HISTORIAS  ========== -->
+    <div class="hlt-height_45 hlt-height_lg_90"></div>
+    <section id="nuevas-historias">
+        <div class="container">
+            <div class="text-center">
+                <h3 class="hlt-section-subtitulo">Últimas Confesiónes</h3>
+                <h2 class="hlt-section-titulo ">
+                    Nuevas
+                    Historias
+                </h2>
+            </div>
+        </div>
+        <!-- SWIPER -->
+        <div class="swiper-nuevas-historias">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img
+                        src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_hombre.webp">
+
+                    <div class="card__content">
+                        <p class="card__category">Paranormal</p>
+                        <h3 class="card__heading">"La mujer lobo"</h3>
+                        <small>Por: @Anonimo334 </small>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+                    <img
+                        src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_mujer.webp">
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_mujer.webp">
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_mujer.webp">
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_mujer.webp">
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ========== PREGUNTAS FRECUENTES  ========== -->
+    <div class="hlt-height_90 hlt-height_lg_45"></div>
+    <section id="preguntas-frecuentes">
+        <div class="container hlt-shape_wrap_1">
+            <div class="hlt-shape_1"></div>
+            <div class="row">
+                <div class="col-xl-5 col-lg-6">
+                    <h3 class="hlt-section-subtitulo">FAQ’s</h3>
+                    <h2 class="hlt-section-titulo">Preguntas <br />Frecuentes</h2>
+                    <div class="cs-height_90 cs-height_lg_45"></div>
+
+                </div>
+                <div class="col-lg-6 offset-xl-1">
+                    accordion
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ========== CTA DEJAMOS TU HISTORIA HOME ========== -->
     <section id="hlt-cta" class="hlt-secciones-gradiente-negro ">
         <div class="container">
             <div class="hlt-cta  text-center hlt-shape_wrap_1 ">
                 <div class="hlt-shape_1"></div>
-                <div class="hlt-shape_1"></div>
+
                 <h2 class="hlt-cta_title ">
                     Comparte en nuestro sitio tus secretos más profundos y protégelos para siempre. La libertad de
                     ser anónimo<i> te espera</i>.
@@ -81,135 +151,32 @@
     <section id="hlt-marquesina">
         <div class="hlt-moving_text_wrap ">
             <div class="hlt-moving_text_in">
-                <div class="hlt-moving_text">Cuéntanos tus secretos más íntimos sin temor a ser descubiertos. Bienvenido
+                <div class="hlt-moving_text">Cuéntanos tus secretos más íntimos sin temor a ser descubiertos.
+                    Bienvenido
                     a Hastalatumba, tu refugio de confianza.</div>
             </div>
         </div>
     </section>
     <div class="hlt-height_45 hlt-height_lg_90"></div>
-    <!-- ========== PREGUNTAS FRECUENTES  ========== -->
-    <div class="hlt-height_90 hlt-height_lg_45"></div>
-    <section id="preguntas-frecuentes">
-        <div class="container hlt-shape_wrap_4">
-            <div class="hlt-shape_1"></div>
-            <div class="row">
-                <div class="col-xl-5 col-lg-6">
-                    <h3 class="hlt-section-subtitulo">FAQ’s</h3>
-                    <h2 class="hlt-section-titulo">Preguntas <br />Frecuentes</h2>
-                    <div class="cs-height_90 cs-height_lg_45"></div>
 
-                </div>
-                <div class="col-lg-6 offset-xl-1">
-                    accordion
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- ========== SLIDER NUEVAS HISTORIAS  ========== -->
+    <!-- ========== SECTION TESTIMONIOS ========== -->
     <div class="hlt-height_45 hlt-height_lg_90"></div>
-    <section id="nuevas-historias">
-        <div class="container">
-            <div class="text-center">
-                <h3 class="hlt-section-subtitulo">Últimas Confesiónes</h3>
-                <h2 class="hlt-section-titulo ">
-                    Nuevas
-                    Historias
-                </h2>
-            </div>
+
+
+    <section id="hlt-testimonios">
+        <div class="container hlt-shape_wrap_1">
+            <div class="hlt-shape_1"></div>
+
+
+            <h3 class="hlt-section-subtitulo">Lo que la gente opina</h3>
+            <h2 class="hlt-section-titulo">Testimonios</h2>
+            <div class="cs-height_90 cs-height_lg_45"></div>
+
+
+
         </div>
-        <!-- SWIPER -->
-        <div class="swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide swiper-slide--one">
-                    <span>domestic</span>
-                    <div>
-                        <h2>Enjoy the exotic of sunny Hawaii</h2>
-                        <p>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                            </svg>
-                            Maui, Hawaii
-                        </p>
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-slide--two">
-                    <span>subtropical</span>
-                    <div>
-                        <h2>The Island of Eternal Spring</h2>
-                        <p>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                            </svg>
-                            Lanzarote, Spanien
-                        </p>
-                    </div>
-                </div>
-
-                <div class="swiper-slide swiper-slide--three">
-                    <span>history</span>
-                    <div>
-                        <h2>Awesome Eiffel Tower</h2>
-                        <p>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                            </svg>
-                            Paris, France
-                        </p>
-                    </div>
-                </div>
-
-                <div class="swiper-slide swiper-slide--four">
-                    <span>Mayans</span>
-                    <div>
-                        <h2>One of the safest states in Mexico</h2>
-                        <p>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                            </svg>
-                            The Yucatan, Mexico
-                        </p>
-                    </div>
-                </div>
-
-                <div class="swiper-slide swiper-slide--five">
-                    <span>native</span>
-                    <div>
-                        <h2>The most popular yachting destination</h2>
-                        <p>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                            </svg>
-                            Whitsunday Islands, Australia
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
         </div>
-
     </section>
 
     <!-- ========== ANIMACION CURSOR  ========== -->

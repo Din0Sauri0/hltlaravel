@@ -53,30 +53,23 @@
   --------------------------------------------------------------*/
 
   /*--------------------------------------------------------------
-    4. SWIPER SLIDERS
+    4. SWIPER
   --------------------------------------------------------------*/
-  var swiper = new Swiper(".swiper", {
+  const swiper = new Swiper(".swiper-nuevas-historias", {
     effect: "coverflow",
+     spaceBetween:-20,
     grabCursor: true,
-    centeredSlides: true,
+    keyboard: {
+        enabled: true,
+      },
+    centeredSlides: false,
     slidesPerView: "auto",
     coverflowEffect: {
-      rotate: 0,
-      stretch: 0,
-      depth: 100,
-      modifier: 2,
-      slideShadows: true
-    },
-    keyboard: {
-      enabled: true
-    },
-    mousewheel: {
-      thresholdDelta: 70
-    },
-    spaceBetween: 60,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true
+
+        rotate: 0,
+        stretch: -80,
+        depth: 300,
+        modifier: 1,
+      slideShadows: true,
     }
-  });
+  })
