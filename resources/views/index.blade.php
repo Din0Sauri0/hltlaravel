@@ -280,9 +280,6 @@
             <h2 class="hlt-section-titulo">Testimonios</h2>
             <div class="cs-height_90 cs-height_lg_45"></div>
         </div>
-        <!-- SWIPER TESTIMONIOS-->
-
-
         <!-- Slider main container -->
         <div class="swipertestimonios">
             <!-- Additional required wrapper -->
@@ -402,17 +399,11 @@
 
             </div>
         </div>
-
     </section>
+    <!-- ========== FOOTER ========== -->
 
 
-    <!-- ========== ANIMACION CURSOR  ========== -->
-    <div id="cursor"></div>
-    <div id="pointer"></div>
 
-    <footer>
-        <!-- place footer here -->
-    </footer>
     <!-- FOOTER SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
         crossorigin="anonymous"></script>
