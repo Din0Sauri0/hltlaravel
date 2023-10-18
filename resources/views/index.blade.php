@@ -45,7 +45,8 @@
 
 </head>
 
-<body>
+<body><br />
+
     <!-- ========== PRELOADER ========== -->
     <div id="preloader">
         <div class="hlt-three-bounce">
@@ -55,8 +56,62 @@
         </div>
     </div>
 
-    <!-- ========== NAVBAR HEADER ========== -->
-    <!-- ========== SOCIALES LATERAL HOME  ========== -->
+    <!-- ========== NAVBAR HEADER recorda poner class para efecto y fixed-top  hlt-menu ========== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top  hlt-menu ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+            <button id="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"><span></span><span></span><span></span>
+            </button>
+
+
+
+
+        </div>
+
+    </nav>
+
+    <br /><br /><br /><br /><br /><br /><br />
+
+    <!-- LATERAL SOCIAL-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            ...
+        </div>
+    </div>
+    <!-- ========== BARRA SOCIALES LATERAL HOME  ========== -->
+
+
+
 
     <!-- ========== SLIDER NUEVAS HISTORIAS  ========== -->
     <div class="hlt-height_45 hlt-height_lg_90"></div>
@@ -80,27 +135,25 @@
                     <div class="card__content">
                         <p class="card__category">Paranormal</p>
                         <h3 class="card__heading">"La mujer lobo"</h3>
-                        <small>Por: @Anonimo334 </small>
+
+
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_mujer.webp">
+
+                    <div class="card__content">
+                        <p class="card__category">Paranormal</p>
+                        <h3 class="card__heading">"La mujer lobo"</h3>
+
+
                     </div>
 
                 </div>
 
-                <div class="swiper-slide">
-                    <img
-                        src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_mujer.webp">
-                </div>
-                <div class="swiper-slide">
-                    <img
-                        src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_mujer.webp">
-                </div>
-                <div class="swiper-slide">
-                    <img
-                        src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_mujer.webp">
-                </div>
-                <div class="swiper-slide">
-                    <img
-                        src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_mujer.webp">
-                </div>
+
 
 
             </div>
@@ -115,14 +168,72 @@
         <div class="container hlt-shape_wrap_1">
             <div class="hlt-shape_1"></div>
             <div class="row">
-                <div class="col-xl-5 col-lg-6">
+                <div class="col-lg-4">
                     <h3 class="hlt-section-subtitulo">FAQ’s</h3>
                     <h2 class="hlt-section-titulo">Preguntas <br />Frecuentes</h2>
                     <div class="cs-height_90 cs-height_lg_45"></div>
 
                 </div>
-                <div class="col-lg-6 offset-xl-1">
-                    accordion
+                <div class="col-lg-8">
+                    <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -162,22 +273,138 @@
 
     <!-- ========== SECTION TESTIMONIOS ========== -->
     <div class="hlt-height_45 hlt-height_lg_90"></div>
-
-
     <section id="hlt-testimonios">
         <div class="container hlt-shape_wrap_1">
             <div class="hlt-shape_1"></div>
-
-
             <h3 class="hlt-section-subtitulo">Lo que la gente opina</h3>
             <h2 class="hlt-section-titulo">Testimonios</h2>
             <div class="cs-height_90 cs-height_lg_45"></div>
-
-
-
         </div>
+        <!-- SWIPER TESTIMONIOS-->
+
+
+        <!-- Slider main container -->
+        <div class="swipertestimonios">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <div class="swiper-avatar"><img
+                                    src="https://bikes-n-stuff.com/wp-content/uploads/sb-instagram-feed-images/julietelliott.jpg">
+                            </div>
+                            <p>"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+                                odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Aenean eu
+                                leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."</p>
+                            <p class="cite">- Juliet Elliott, Cyclist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <div class="swiper-avatar"><img
+                                    src="https://bikes-n-stuff.com/wp-content/uploads/sb-instagram-feed-images/julietelliott.jpg">
+                            </div>
+                            <p>"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+                                odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Aenean eu
+                                leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."</p>
+                            <p class="cite">- Juliet Elliott, Cyclist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <div class="swiper-avatar"><img
+                                    src="https://bikes-n-stuff.com/wp-content/uploads/sb-instagram-feed-images/julietelliott.jpg">
+                            </div>
+                            <p>"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+                                odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Aenean eu
+                                leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."</p>
+                            <p class="cite">- Juliet Elliott, Cyclist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <div class="swiper-avatar"><img
+                                    src="https://bikes-n-stuff.com/wp-content/uploads/sb-instagram-feed-images/julietelliott.jpg">
+                            </div>
+                            <p>"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+                                odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Aenean eu
+                                leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."</p>
+                            <p class="cite">- Juliet Elliott, Cyclist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <div class="swiper-avatar"><img
+                                    src="https://bikes-n-stuff.com/wp-content/uploads/sb-instagram-feed-images/julietelliott.jpg">
+                            </div>
+                            <p>"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+                                odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Aenean eu
+                                leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."</p>
+                            <p class="cite">- Juliet Elliott, Cyclist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <div class="swiper-avatar"><img
+                                    src="https://bikes-n-stuff.com/wp-content/uploads/sb-instagram-feed-images/julietelliott.jpg">
+                            </div>
+                            <p>"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+                                odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Aenean eu
+                                leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."</p>
+                            <p class="cite">- Juliet Elliott, Cyclist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <div class="swiper-avatar"><img
+                                    src="https://bikes-n-stuff.com/wp-content/uploads/sb-instagram-feed-images/julietelliott.jpg">
+                            </div>
+                            <p>"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+                                odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Aenean eu
+                                leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."</p>
+                            <p class="cite">- Juliet Elliott, Cyclist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <div class="swiper-avatar"><img
+                                    src="https://bikes-n-stuff.com/wp-content/uploads/sb-instagram-feed-images/julietelliott.jpg">
+                            </div>
+                            <p>"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+                                odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Aenean eu
+                                leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."</p>
+                            <p class="cite">- Juliet Elliott, Cyclist</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- If we need pagination -->
+            <!-- If we need navigation buttons -->
+            <div class="swiper-nav-wrapper">
+                <div class="swiper-pagination"></div>
+
+            </div>
         </div>
+
     </section>
+
 
     <!-- ========== ANIMACION CURSOR  ========== -->
     <div id="cursor"></div>

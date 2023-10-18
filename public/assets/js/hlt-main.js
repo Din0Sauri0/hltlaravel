@@ -5,6 +5,38 @@
 		$('#preloader').delay(500).fadeOut(500);
 	});
 /*--------------------------------------------------------------
+## MENU
+----------------------------------------------------------------*/
+const body = document.body;
+
+const scrollUp = "scroll-up";
+const scrollDown = "scroll-down";
+let lastScroll = 0;
+
+
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll <= 0) {
+    body.classList.remove(scrollUp);
+    return;
+  }
+
+  if (currentScroll > lastScroll && !body.classList.contains(scrollDown)) {
+    // down
+    body.classList.remove(scrollUp);
+    body.classList.add(scrollDown);
+  } else if (
+    currentScroll < lastScroll &&
+    body.classList.contains(scrollDown)
+  ) {
+    // up
+    body.classList.remove(scrollDown);
+    body.classList.add(scrollUp);
+  }
+  lastScroll = currentScroll;
+});
+
+    /*--------------------------------------------------------------
     2. ANIMACION CURSOR
   --------------------------------------------------------------*/
   jQuery(document).ready(function ($) {
@@ -56,20 +88,68 @@
     4. SWIPER
   --------------------------------------------------------------*/
   const swiper = new Swiper(".swiper-nuevas-historias", {
-    effect: "coverflow",
-     spaceBetween:-20,
+     effect: "coverflow",
+     spaceBetween:20,
     grabCursor: true,
     keyboard: {
         enabled: true,
       },
     centeredSlides: false,
     slidesPerView: "auto",
-    coverflowEffect: {
+     coverflowEffect: {
 
-        rotate: 0,
-        stretch: -80,
-        depth: 300,
-        modifier: 1,
-      slideShadows: true,
-    }
+         rotate: 0,
+         stretch: -80,
+         depth: 300,
+         modifier: 1,
+       slideShadows: true,
+     }
   })
+
+  const swipertestimonios = new Swiper(".swipertestimonios", {
+	// Optional parameters
+	grabCursor: true,
+    keyboard: {
+        enabled: true,
+      },
+
+      centeredSlides: false,
+
+	slidesPerView: 1,
+  // Responsive breakpoints
+  breakpoints: {
+		640: {
+      slidesPerView:1,
+			  spaceBetween: 40,
+    },
+    992: {
+      slidesPerView: 3,
+			  spaceBetween: 40,
+    }
+  },
+
+	// If we need pagination
+	pagination: {
+		el: ".swiper-pagination"
+	},
+
+	// Navigation arrows
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev"
+	}
+
+	// And if we need scrollbar
+	/*scrollbar: {
+    el: '.swiper-scrollbar',
+  },*/
+});
+
+  /*--------------------------------------------------------------
+## CLICK PARA ABRIR MENU LATERAL
+----------------------------------------------------------------*/
+var e = document.getElementById('btn');
+e.addEventListener('click', function() {
+  if (this.className == 'on') this.classList.remove('on');
+  else this.classList.add('on');
+});
