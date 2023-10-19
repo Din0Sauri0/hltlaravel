@@ -129,8 +129,8 @@
         <div class="swiper-nuevas-historias">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img
-                        src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_hombre.webp">
+                    <a><img
+                            src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_hombre.webp"></a>
 
                     <div class="card__content">
                         <p class="card__category">Paranormal</p>
@@ -141,8 +141,8 @@
 
                 </div>
                 <div class="swiper-slide">
-                    <img
-                        src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_mujer.webp">
+                    <a><img src="https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/img_posts/historia_hombre.webp"
+                            class="zoom"></a>
 
                     <div class="card__content">
                         <p class="card__category">Paranormal</p>
@@ -280,6 +280,9 @@
             <h2 class="hlt-section-titulo">Testimonios</h2>
             <div class="cs-height_90 cs-height_lg_45"></div>
         </div>
+        <!-- SWIPER TESTIMONIOS-->
+
+
         <!-- Slider main container -->
         <div class="swipertestimonios">
             <!-- Additional required wrapper -->
@@ -399,14 +402,17 @@
 
             </div>
         </div>
+
     </section>
-    <!-- ========== FOOTER ========== -->
-    !<div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-        <label for="floatingTextarea">Comments</label>
-    </div>
 
 
+    <!-- ========== ANIMACION CURSOR  ========== -->
+    <div id="cursor"></div>
+    <div id="pointer"></div>
+
+    <footer>
+        <!-- place footer here -->
+    </footer>
     <!-- FOOTER SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
         crossorigin="anonymous"></script>

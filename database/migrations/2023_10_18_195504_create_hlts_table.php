@@ -15,7 +15,6 @@ return new class extends Migration {
             $table->string('titulo');
             $table->string('categoria');
             $table->string('texto_historia');
-            $table->rememberToken();
             $table->timestamps();
         });
     }

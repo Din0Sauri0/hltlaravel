@@ -12,11 +12,7 @@ return new class extends Migration {
     {
         Schema::create('historias', function (Blueprint $table) {
             $table->id();
-            $table->string('titulo');
-            $table->string('categoria');
-            $table->string('texto_historia');
-            $table->rememberToken();
-            $table->timestamps();
+
         });
     }
 

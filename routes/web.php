@@ -19,6 +19,7 @@ Route::get('', function () {
 Route::get('/mausoleo-de-historias', function () {
     return view('mausoleo');
 });
+
 Route::get('/login', function () {
     return view('login');
 });
