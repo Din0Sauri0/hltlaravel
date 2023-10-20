@@ -44,32 +44,13 @@
 </head>
 
 <body><br />
-    {{-- @section('preloader')
-        <!-- ========== PRELOADER ========== -->
-        <div id="preloader">
-            <div class="hlt-three-bounce">
-                <div class="hlt-child hlt-bounce1"></div>
-                <div class="hlt-child hlt-bounce2"></div>
-                <div class="hlt-child hlt-bounce3"></div>
-            </div>
-        </div>
-    @endsection --}}
 
-    @include('componentes-vistas.header')
+    @include('layouts.preload')
+    @include('navbar.navbar')
 
     <br /><br /><br /><br /><br /><br /><br />
 
-    <!-- LATERAL SOCIAL-->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header">
-            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            ...
-        </div>
-    </div>
-    <!-- ========== BARRA SOCIALES LATERAL HOME  ========== -->
+
 
 
 

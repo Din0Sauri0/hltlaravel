@@ -105,6 +105,7 @@ window.addEventListener("scroll", () => {
   })
 
   const swipertestimonios = new Swiper(".swipertestimonios", {
+
 	// Optional parameters
 	grabCursor: true,
     keyboard: {

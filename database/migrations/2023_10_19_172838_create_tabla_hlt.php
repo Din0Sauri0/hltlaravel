@@ -4,18 +4,15 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration {
+return new class extends Migration
+{
     /**
      * Run the migrations.
      */
     public function up(): void
     {
-        Schema::create('historias', function (Blueprint $table) {
+        Schema::create('tabla_hlt', function (Blueprint $table) {
             $table->id();
-            $table->string('titulo');
-            $table->string('categoria');
-            $table->string('texto_historia');
-            $table->rememberToken();
             $table->timestamps();
         });
     }
@@ -25,6 +22,6 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        Schema::dropIfExists('historias');
+        Schema::dropIfExists('tabla_hlt');
     }
 };
