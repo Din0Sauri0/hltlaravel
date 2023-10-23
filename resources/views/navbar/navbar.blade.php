@@ -10,16 +10,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Purgatorio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Link</a>
+                    <a class="nav-link" href="{{ route('mausoleo-de-historias') }}">Mausoleo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="{{ route('sabias-que') }}">Sabías que?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="{{ route('club-lloron') }}">Club Llorón</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('sepulturero') }}">Sepulturero</a>
+                </li>
+                <li class="menu-item">
+                    <a href="{{ route('cuentanos-tu-historia') }}" title="">
+                        <button type="button" class="btn btn-danger">Confiésate</button>
+                    </a>
                 </li>
             </ul>
         </div>
