@@ -119,35 +119,35 @@
                                 Historia <i class="fas fa-lock" aria-hidden="true"></i></button>
                         </div>
                     </div>
-                    <div class="hlt-iconos-sociales-laterales">
-                        <ul class="hlt-social-links">
-                            <li>
-                                <a href="https://www.instagram.com/hastalatumba.cl/" class="links-center"
-                                    title="Síguenos en Instagram ">
-                                    <i class="fab fa-instagram" aria-hidden="true"></i>&nbsp;Imstragram</a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/hastalatumba.cl" class="cs-center"
-                                    title="Sigue nuestra página en Facebook "> <i class="fab fa-facebook"
-                                        aria-hidden="true"></i>&nbsp;Facebook</a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/@hastalatumba" class="cs-center"
-                                    title="Baila con nosotros en TikTok">
-                                    <i class="fab fa-youtube" aria-hidden="true"></i>&nbsp;Youtube</a>
-                            </li>
-                            <li>
-                                <a href="https://www.tiktok.com/@hastalatumba.cl" class="cs-center"
-                                    title="Sígue nuestro canal en Youtube "> <i class="fab fa-tiktok"
-                                        aria-hidden="true"></i>&nbsp;Tik Tok</a>
-                            </li>
-                        </ul>
-                    </div>
+
                 </div>
 
             </div>
         </section>
-
+        <div class="hlt-iconos-sociales-laterales">
+            <ul class="hlt-social-links">
+                <li>
+                    <a href="https://www.instagram.com/hastalatumba.cl/" class="links-center"
+                        title="Síguenos en Instagram ">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>&nbsp;Imstragram</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/hastalatumba.cl" class="cs-center"
+                        title="Sigue nuestra página en Facebook "> <i class="fab fa-facebook"
+                            aria-hidden="true"></i>&nbsp;Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@hastalatumba" class="cs-center"
+                        title="Baila con nosotros en TikTok">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>&nbsp;Youtube</a>
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/@hastalatumba.cl" class="cs-center"
+                        title="Sígue nuestro canal en Youtube "> <i class="fab fa-tiktok"
+                            aria-hidden="true"></i>&nbsp;Tik Tok</a>
+                </li>
+            </ul>
+        </div>
 
 
         <!-- ========== ESTADISTICAS HOME ========== -->

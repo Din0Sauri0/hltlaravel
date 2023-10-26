@@ -115,6 +115,8 @@ window.addEventListener("scroll", () => {
           spaceBetween: 40,
 }
 },
+
+
     }
   });
 
@@ -131,7 +133,7 @@ window.addEventListener("scroll", () => {
         enabled: true,
       },
 
-      centeredSlides: true,
+      centeredSlides: false,
 
 	slidesPerView: 1,
   // Responsive breakpoints

@@ -17,7 +17,7 @@ Route::get('', function () {
     return view('index');
 })->name('/');
 Route::get('/mausoleo-de-historias', function () {
-    return view('mausoleo');
+    return view('mausoleo.mausoleo');
 })->name('mausoleo-de-historias');
 Route::get('/blog', function () {
     return view('blog.blog');

@@ -240,11 +240,31 @@ a:hover {
 
 }
 
-.bgimage h5 {
-    color: white;
-    text-shadow: 2px 2px #333;
+.bgimage-mausoleo {
+    width: 100%;
+    background: url('https://hastalatumba.zona8.cl/assets/img/fondos/1.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
+.breadcrumb {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    color: #999696;
+}
+
+.h1-simple {
+    color: #FEFEFE;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    line-height: 1.3em;
+}
 
 /*--------------------------------------------------------------
 ## SOCIALES LATERAL HOME
@@ -253,9 +273,9 @@ a:hover {
 
     display: flex;
     position: absolute;
-    height: 100vh;
-    top: 390px;
-
+    height: 800px;
+    top: 400px;
+    z-index: 2;
     -webkit-writing-mode: vertical-lr;
     -ms-writing-mode: tb-lr;
     writing-mode: vertical-lr;
