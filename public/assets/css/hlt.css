@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Source+Sans+3&display=swap');
 
 
+
+
 /*--------------------------------------------------------------
-## CSS RESET
+## CSS BASICO
 ----------------------------------------------------------------*/
 
 body,
@@ -240,14 +242,32 @@ a:hover {
 
 }
 
-.bgimage-mausoleo {
-    width: 100%;
-    background: url('https://hastalatumba.zona8.cl/assets/img/fondos/1.webp');
-    background-repeat: no-repeat;
+.hero-image {
+    background-image: url("https://hastalatumba.zona8.cl/mausoleo-de-historias/imagenes/fondo_hero_home.webp");
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    position: relative;
+    height: 550px !important;
+}
 
+.hero-text {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1 {
+    clear: both;
+    font-size: 45px;
+    color: #FEFEFE;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    line-height: 1.3em;
 }
 
 .breadcrumb {
@@ -258,12 +278,16 @@ a:hover {
     color: #999696;
 }
 
-.h1-simple {
-    color: #FEFEFE;
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-weight: 400;
-    line-height: 1.3em;
+.breadcrumb-item.active {
+    color: #fff;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 14px;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
 }
 
 /*--------------------------------------------------------------
@@ -308,6 +332,121 @@ ul.hlt-social-links {
     display: flex;
     gap: 15px
 }
+
+
+
+/*--------------------------------------------------------------
+## BLOG
+----------------------------------------------------------------*/
+.img-blog {
+    border-radius: 15px;
+
+}
+
+.zoom {
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 45px;
+
+}
+
+.zoom img {
+    transition-duration: 2s;
+    margin: 0 auto;
+    display: block;
+}
+
+.zoom img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+}
+
+.sidebar-blog {
+    margin-bottom: 70px;
+}
+
+.sidebar-blog h4 {
+    font-weight: 400;
+}
+
+.sidebar-blog input {
+
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding: 0px 40px 6px 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.hlt-sidebar_search {}
+
+.hlt-sidebar-buscador-boton {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    bottom: 0px;
+    right: 0;
+    color: #fff;
+    padding: 10px 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.hlt-sidebar-buscador-boton:hover {
+    color: red
+}
+
+input {
+    color: #fff;
+}
+
+.fecha {
+    font-size: 18px;
+    color: #999696;
+    font-weight: 600;
+}
+
+
+
+.cat {
+    font-size: 18px;
+    color: #999696;
+    font-weight: 600;
+}
+
+.titulo-historia {
+    margin-top: 35px;
+    line-height: 1.75em;
+    font-size: 38px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.contenido-historia {
+    margin-bottom: 35px;
+    line-height: 1.75em;
+}
+
+.paginacion {
+    display: flex;
+    padding: 30px 0 30px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination {
+    gap: 15px
+}
+
+.page-item .page-link {
+    border-radius: 5px;
+}
+
 
 /*--------------------------------------------------------------
 ## CTA DEJANOS TU HISTORIA HOME
