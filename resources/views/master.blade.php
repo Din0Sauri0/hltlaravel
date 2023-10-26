@@ -46,9 +46,11 @@
 <body><br />
 
     @include('layouts.preload')
+
     @include('navbar.navbar')
 
-    <br /><br /><br /><br /><br /><br /><br />
+
+
 
 
 
@@ -346,7 +348,7 @@
         </div>
 
     </section>
-
+    @include('footer.footer')
 
     <!-- ========== ANIMACION CURSOR  ========== -->
     <div id="cursor"></div>

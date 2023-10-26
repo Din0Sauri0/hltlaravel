@@ -19,7 +19,7 @@ Route::get('', function () {
 Route::get('/mausoleo-de-historias', function () {
     return view('mausoleo');
 })->name('mausoleo-de-historias');
-Route::get('/sabias-que', function () {
+Route::get('/blog', function () {
     return view('blog');
 })->name('sabias-que');
 Route::get('/club-lloron', function () {
