@@ -1,1 +1,0 @@
-aca la vista blog

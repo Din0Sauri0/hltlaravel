@@ -85,24 +85,41 @@ window.addEventListener("scroll", () => {
   /*--------------------------------------------------------------
     4. SWIPER
   --------------------------------------------------------------*/
-  const swiper = new Swiper(".swiper-nuevas-historias", {
-     effect: "coverflow",
-     spaceBetween:20,
-    grabCursor: true,
+  var swiper = new Swiper(".swiper-historias", {
+    effect: "coverflow",
+    spaceBetween:20,
     keyboard: {
         enabled: true,
       },
-    centeredSlides: false,
-    slidesPerView: "auto",
-     coverflowEffect: {
 
-         rotate: 0,
-         stretch: -80,
-         depth: 300,
-         modifier: 1,
-       slideShadows: true,
-     }
-  })
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+
+    slideToClickedSlide: true,
+    loop: true,
+    coverflowEffect: {
+      rotate: 0,
+      stretch: -86,
+      depth: 300,
+      modifier: 1,
+      slideShadows: false,
+       // Responsive breakpoints
+  breakpoints: {
+    640: {
+  slidesPerView:1,
+          spaceBetween: 40,
+},
+992: {
+  slidesPerView: 3,
+          spaceBetween: 40,
+}
+},
+    }
+  });
+
+
+
 
   const swipertestimonios = new Swiper(".swipertestimonios", {
 
@@ -112,7 +129,7 @@ window.addEventListener("scroll", () => {
         enabled: true,
       },
 
-      centeredSlides: false,
+      centeredSlides: true,
 
 	slidesPerView: 1,
   // Responsive breakpoints

@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+@include('menu')
+
+
+{{-- <!DOCTYPE html>
 <html>
 
 <head>
@@ -8,8 +11,7 @@
 </head>
 
 <body>
-    @extends('menu')
-    <textarea>
+     <textarea>
         Libérate y déjanos tu historia acá
     </textarea>
     </div>
@@ -37,4 +39,4 @@
     </script>
 </body>
 
-</html>
+</html> --}}
