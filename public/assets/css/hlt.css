@@ -91,6 +91,29 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
+## GO TOP
+----------------------------------------------------------------*/
+.go-top {
+    position: fixed;
+    border-radius: 50%;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    z-index: 9999999;
+    padding: 1em;
+    display: none;
+}
+
+.go-top:hover {
+    background-color: red;
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
 ## PRELOADER
 ----------------------------------------------------------------*/
 #preloader {
@@ -230,9 +253,9 @@ a:hover {
 
     display: flex;
     position: absolute;
-    height: 700px;
-    top: 350px;
-    z-index: 99999;
+    height: 100vh;
+    top: 390px;
+
     -webkit-writing-mode: vertical-lr;
     -ms-writing-mode: tb-lr;
     writing-mode: vertical-lr;

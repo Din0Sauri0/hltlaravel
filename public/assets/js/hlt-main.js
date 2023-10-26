@@ -83,7 +83,7 @@ window.addEventListener("scroll", () => {
 
 
   /*--------------------------------------------------------------
-    4. SWIPER
+    4. SWIPER HISTORIAS PORTADA
   --------------------------------------------------------------*/
   var swiper = new Swiper(".swiper-historias", {
     effect: "coverflow",
@@ -119,7 +119,9 @@ window.addEventListener("scroll", () => {
   });
 
 
-
+  /*--------------------------------------------------------------
+    4. SWIPER TESTIMONIOS
+  --------------------------------------------------------------*/
 
   const swipertestimonios = new Swiper(".swipertestimonios", {
 
@@ -159,4 +161,25 @@ window.addEventListener("scroll", () => {
 	/*scrollbar: {
     el: '.swiper-scrollbar',
   },*/
+});
+
+  /*--------------------------------------------------------------
+    4. TO TOP
+  --------------------------------------------------------------*/
+$(document).ready(function() {
+    // Show or hide the sticky footer button
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) {
+            $('.go-top').fadeIn(200);
+        } else {
+            $('.go-top').fadeOut(200);
+        }
+    });
+
+    // Animate the scroll to top
+    $('.go-top').click(function(event) {
+        event.preventDefault();
+
+        $('html, body').animate({scrollTop: 0}, 300);
+    })
 });
