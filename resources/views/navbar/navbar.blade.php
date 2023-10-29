@@ -1,6 +1,6 @@
 <!-- ========== NAVBAR HEADER recorda poner class para efecto y fixed-top  hlt-menu ========== -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top  hlt-menu ">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark  hlt-menu ">
     <div class="container">
         <a class="navbar-brand" href="">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -16,7 +16,7 @@
                     <a class="nav-link" href="{{ route('mausoleo-de-historias') }}">Mausoleo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('sabias-que') }}">Sabías que?</a>
+                    <a class="nav-link" href="{{ route('blog') }}">Sabías que?</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('club-lloron') }}">Club Llorón</a>

@@ -16,24 +16,35 @@ use Illuminate\Support\Facades\Route;
 Route::get('', function () {
     return view('index');
 })->name('/');
+
 Route::get('/mausoleo-de-historias', function () {
     return view('mausoleo.mausoleo');
 })->name('mausoleo-de-historias');
+
 Route::get('/blog', function () {
     return view('blog.blog');
 })->name('sabias-que');
+
 Route::get('/club-lloron', function () {
     return view('club-lloron');
 })->name('club-lloron');
+
 Route::get('/login', function () {
     return view('login');
 })->name('ingreso');
+
 Route::get('/registro', function () {
     return view('registro');
 })->name('resgistro');
+
 Route::get('/sepulturero', function () {
     return view('sepulturero');
 })->name('sepulturero');
+
 Route::get('/cuentanos-tu-historia', function () {
     return view('cuentanos-tu-historia');
 })->name('cuentanos-tu-historia');
+
+Route::get('/blog', function () {
+    return view('blog.blog');
+})->name('blog');
